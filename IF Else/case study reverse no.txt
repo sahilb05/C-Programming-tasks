@@ -1,0 +1,18 @@
+ Reverse of this no 97521
+rem=no%10;
+rev=rev*10+rem;
+no=no/10;
+
+pass:0  rev=0     no=97521  rem=                        10)97521(97521
+pass:1  rev=1      no=9752  rem= 1                         90
+pass:2  rev=12     no=975       rem=2                    -------
+pass:3  rev=125    no=97      rem=5                        7521
+pass:4  rev=1257   no=9      rem= 7                        70
+pass:5  rev=12579  no=0       rem= 9                    ------------
+                                                           521
+                                                           50     
+                                                        ----------
+                                                             21
+                                                             20 
+                                                          --------
+                                                               1
